@@ -1,0 +1,25 @@
+import pyautogui
+import webbrowser as Web
+import time
+Web.open("https://web.whatsapp.com/")
+time.sleep(40)
+while(True):
+    pyautogui.press("I")
+    pyautogui.press("enter")
+    pyautogui.press("a")
+    pyautogui.press("m")
+    pyautogui.press("enter")
+    pyautogui.press("a")
+    pyautogui.press("enter")
+    pyautogui.press("S")
+    pyautogui.press("p")
+    pyautogui.press("a")
+    pyautogui.press("m")
+    pyautogui.press("i")
+    pyautogui.press("n")
+    pyautogui.press("g")
+    pyautogui.press("enter")
+    pyautogui.press("b")
+    pyautogui.press("o")
+    pyautogui.press("t")
+    pyautogui.press("enter")
